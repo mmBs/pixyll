@@ -1,26 +1,26 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       mmBs dev blog
+email:       mmbialas@gmail.com
+author:      Michal Bialas
+description: "mmBs blog just for reminding Android stuff, but not only :)"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         'https://mmbs.github.io'
 date_format: "%b %-d, %Y"
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-71320286-1
 google_tag_manager:
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
+show_post_footers:    true
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -28,7 +28,7 @@ enable_anchorjs: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: realexamples
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -37,22 +37,22 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: mmBs
 bitbucket_username:
-stackoverflow_id:
-twitter_username:
+stackoverflow_id: 2065587/mmbs
+twitter_username: mmbialas
 skype_username:
 steam_nickname:
-google_plus_id:
-linkedin_username:
-angellist_username:
-medium_id:
+google_plus_id: u/0/111871061538679318016
+linkedin_username: mmbialas
+angellist_username: mmbialas
+medium_id: mmbialas
 bitcoin_url:
 paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false
