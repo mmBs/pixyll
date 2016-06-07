@@ -16,7 +16,7 @@
     margin-top: 0;
   }
 
-  .site-header a {
+  .site-header .site-footer a {
     font-size: $h4;
   }
 
@@ -36,11 +36,11 @@
   }
 
   .social-icons-left {
-    text-align: left;
+    text-align: center;
   }
 
   .social-icons-right {
-    text-align: right;
+    text-align: center;
   }
 }
 

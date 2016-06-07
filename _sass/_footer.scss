@@ -21,9 +21,28 @@
 footer {
   background-color: $footer-bg-color;
   border-top: $footer-border-top;
-  color: $footer-color;
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
   padding: $footer-padding;
   text-align: center;
+
+  a {
+    color: #333;
+    text-decoration: none;
+    background-image: none;
+  }
+  a + a {
+    margin-left: 0.2em;
+  }
+
+}
+
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer a:active {
+  color: #444;
+  opacity: 1;
+  border-bottom: none;
+  text-decoration: none;
+  background-image: none;
 }
